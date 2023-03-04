@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Google search scrapping</title>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="box"> 
+            
+            <div class="d1">
+
+                <span  style="display: flex; margin-top:2px;margin-bottom: -30px;"><img src="brand.png" height="25px" width="25px" style="padding-left:3%;padding-top: 2%;">&nbsp;<h3 class="heading_d1 ">Data scrapper</h3></span>
+                                    
+                    <p id="error_message_importers" class="d4"></p>                   
+                    <p id="icon_status" class="d" style="padding-left:18px;"></p>
+                    <p id="icon_importers_status1" class="d" style="padding-left:18px;"></p>
+                    <p id="status_code" class="d" style="padding-left:58px;"></p>
+                    
+                <table  style="width: 100%; padding-top: 15px;">
+                    <tr>
+                            <td rowspan="7" >                                
+                                <b><p id="search_companyname"></p></b>
+                            </td> 
+                    </tr>
+                    <tr >
+                        <td id="tr1">                                                               
+                                <p id="search_address" class="d2"></p>
+                                <p id="search_phone" class="d2"></p>                                                               
+                        </td>
+                    </tr>
+
+                </table><br>               
+
+                <div class="button_container" style="margin-bottom: 15px;">
+                     <button  id="save" class="btn"><span>Save</span></button> 
+                        
+                </div>
+            </div>
+        </div>                                
+        <script src="searchResult.js"></script>               
+    </body>
+</html>
+

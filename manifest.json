@@ -1,0 +1,21 @@
+{
+    "name":"Data scrapper",
+
+    "version":"1.0",
+    
+    "manifest_version":3,
+
+    "description":"This will scrap data from google search!",
+
+    "icons":{
+        "128":"brand.png"
+    },
+
+    "action": {
+        "default_title": "Web srapping tools",
+        "default_popup": "popup.html"
+       },
+
+    "permissions": ["cookies","tabs" ,"activeTab","scripting"],
+    "host_permissions" : ["http://*/*","https://*/*"]
+}
